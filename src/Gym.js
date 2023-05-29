@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import 'react-tabs/style/react-tabs.css';
 
 function Gym() {
-    const [apiResponse, setApiResponse] = useState("Loading");
+    const [apiResponse, setApiResponse] = useState("Loading... Might not be working");
     
     useEffect(() => {
         fetch("http://localhost:9000/testAPI")
