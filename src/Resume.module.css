@@ -1,0 +1,42 @@
+.titleName {
+    font-size: 48px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0%;
+  }
+
+.contactInfo {
+  font-size: 16px;
+  text-align: center;
+  margin: 0%;
+}
+
+.sectionHeader {
+  font-size: 24px;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin-left: 10%;
+}
+
+.subTitle {
+  margin-left: 10%;
+}
+
+.rightDate {
+  float: right;
+  margin-right: 10%;
+}
+
+.subSubTitle {
+  margin-left: 15%;
+}
+
+.subSubList {
+  margin-right: 50px;
+  min-width: 50%;
+}
+
+.subList {
+  margin-top: 0;
+}

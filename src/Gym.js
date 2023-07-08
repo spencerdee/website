@@ -1,6 +1,4 @@
-import './App.css';
 import React, { useEffect, useState } from 'react';
-import 'react-tabs/style/react-tabs.css';
 
 function Gym() {
     const [apiResponse, setApiResponse] = useState("Loading... Might not be working");

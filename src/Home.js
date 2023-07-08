@@ -1,34 +1,21 @@
-import './App.css';
 import React from 'react';
-import 'react-tabs/style/react-tabs.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import portrait from './portrait.jpeg'
+import styles from './Home.module.css'
 
 function Home() {
 
     return (
-        <div id="home">
-            <p>Spencer Dee Homepage</p>
-        </div>
+            <body>
+
+                <p className={styles.topTitle}>Spencer Dee</p>
+                <img className={styles.centerImage} src={portrait} alt="Spencer"/>
+                <p className={styles.topTitle}>Homepage Links</p>
+                <a className={styles.bottonLinks} href="https://github.com/spencerdee" target="_blank" rel="noopener noreferrer">Github</a>
+                <a className={styles.bottonLinks} href="https://www.linkedin.com/in/spencerdee/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a className={styles.bottonLinks} href="https://colonist.io" target="_blank" rel="noopener noreferrer">Colonist.io</a>
+                <a className={styles.bottonLinks} href="https://poeltl.dunk.town/" target="_blank" rel="noopener noreferrer">Poeltl</a>
+            </body>
+
     );
 }
 
